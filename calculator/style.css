@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgba(0, 166, 255, 0.737);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.container{
+    width: 350px;
+    height: 430px;
+    background-color: white;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.input{
+    margin-top: 15px;
+    background-color: rgba(0, 166, 255, 0.737);
+    color: rgba(0, 0, 0, 0.495);
+    width: 270px;
+    height: 50px;
+    margin-top: 15%;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 3px;
+    padding-right: 8px;
+}
+.keypad{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.key{
+    width: 55px;
+    height: 35px;
+    background-color: rgba(128, 128, 128, 0.79);
+}
